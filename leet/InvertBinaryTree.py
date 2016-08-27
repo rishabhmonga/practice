@@ -2,14 +2,10 @@ from leet import LevelOrder
 
 
 class InvertTree:
-    def __init__(self, x):
-        self.val = x
-        self.left = None
-        self.right = None
 
     @staticmethod
     def invertTree(root):
-        if root is not None:
+        if root is None:
             return
         temp = root.right
         root.right = root.left
