@@ -2,62 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fb27e7b-1c7a-47bd-97ce-f403fc807abb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leet/AddDigitsOfANumber.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leet/AddTwoNumbers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leet/InvertBinaryTree.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leet/LevelOrder.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leet/MaxDepthOfBinaryTree.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leet/Nim_Game.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leet/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leet/reverse_string.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leet/try.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XMLResource/ehcache.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XMLResource/ehcache.xsd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xmlvalidator/tc-config.xsd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xmlvalidator/validation.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BarrierImplementation/BarrierTry.java" afterPath="$PROJECT_DIR$/BarrierImplementation/BarrierTry.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BarrierImplementation/Client.java" afterPath="$PROJECT_DIR$/BarrierImplementation/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BasicTry/Int/BFS.java" afterPath="$PROJECT_DIR$/BasicTry/Int/BFS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BasicTry/Int/RecursiveReverse.java" afterPath="$PROJECT_DIR$/BasicTry/Int/RecursiveReverse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BasicTry/TreeTry.java" afterPath="$PROJECT_DIR$/BasicTry/TreeTry.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BinarySearchTree.java" afterPath="$PROJECT_DIR$/BinarySearchTree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BinaryTreePractice/BinaryTreeLCA.java" afterPath="$PROJECT_DIR$/BinaryTreePractice/BinaryTreeLCA.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BinaryTreePractice/BinaryTreeNode.java" afterPath="$PROJECT_DIR$/BinaryTreePractice/BinaryTreeNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BinaryTreePractice/BoundaryTraversal.java" afterPath="$PROJECT_DIR$/BinaryTreePractice/BoundaryTraversal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BinaryTreePractice/NodeDistance.java" afterPath="$PROJECT_DIR$/BinaryTreePractice/NodeDistance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConcurrentMapTry.java" afterPath="$PROJECT_DIR$/ConcurrentMapTry.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DCLTry/DCLTest.java" afterPath="$PROJECT_DIR$/DCLTry/DCLTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DSFThread.java" afterPath="$PROJECT_DIR$/DSFThread.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStructure.java" afterPath="$PROJECT_DIR$/DataStructure.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EHCacheImplementation/CacheImplementation.java" afterPath="$PROJECT_DIR$/EHCacheImplementation/CacheImplementation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EHCacheImplementation/ThreadedCacheImplementation.java" afterPath="$PROJECT_DIR$/EHCacheImplementation/ThreadedCacheImplementation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InterruptTry/InterruptTry.java" afterPath="$PROJECT_DIR$/InterruptTry/InterruptTry.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InterruptTry/TestInt.java" afterPath="$PROJECT_DIR$/InterruptTry/TestInt.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JMXTry/Hello.java" afterPath="$PROJECT_DIR$/JMXTry/Hello.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JMXTry/HelloMBean.java" afterPath="$PROJECT_DIR$/JMXTry/HelloMBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JMXTry/LoggerTry.java" afterPath="$PROJECT_DIR$/JMXTry/LoggerTry.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JMXTry/SimpleAgent.java" afterPath="$PROJECT_DIR$/JMXTry/SimpleAgent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LRUImplementation/LRUCache.java" afterPath="$PROJECT_DIR$/LRUImplementation/LRUCache.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LRUImplementation/LRUQueue.java" afterPath="$PROJECT_DIR$/LRUImplementation/LRUQueue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LRUImplementation/QNode.java" afterPath="$PROJECT_DIR$/LRUImplementation/QNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LambdaTry/LambdaTry.java" afterPath="$PROJECT_DIR$/LambdaTry/LambdaTry.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LockPractice/LockMutex.java" afterPath="$PROJECT_DIR$/LockPractice/LockMutex.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LockPractice/LockNew.java" afterPath="$PROJECT_DIR$/LockPractice/LockNew.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LockPractice/LockTry.java" afterPath="$PROJECT_DIR$/LockPractice/LockTry.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ObjectWrite/ObjectWriteTry.java" afterPath="$PROJECT_DIR$/ObjectWrite/ObjectWriteTry.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PatternTry/LogSearch.java" afterPath="$PROJECT_DIR$/PatternTry/LogSearch.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RBT/Color.java" afterPath="$PROJECT_DIR$/RBT/Color.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RBT/RedBlackTree.java" afterPath="$PROJECT_DIR$/RBT/RedBlackTree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RedBlack/Color.java" afterPath="$PROJECT_DIR$/RedBlack/Color.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RedBlack/RedBlackTree.java" afterPath="$PROJECT_DIR$/RedBlack/RedBlackTree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReflectionTry/ReflectionTest.java" afterPath="$PROJECT_DIR$/ReflectionTry/ReflectionTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReflectionTry/TryClass.java" afterPath="$PROJECT_DIR$/ReflectionTry/TryClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RepeatedChar.java" afterPath="$PROJECT_DIR$/RepeatedChar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServerName/ServerNameConfigurationManagerImpl.java" afterPath="$PROJECT_DIR$/ServerName/ServerNameConfigurationManagerImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SyncTest1/Sync.java" afterPath="$PROJECT_DIR$/SyncTest1/Sync.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SyncTestMain/SyncTry.java" afterPath="$PROJECT_DIR$/SyncTestMain/SyncTry.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThreadTry.java" afterPath="$PROJECT_DIR$/ThreadTry.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WaitWithoutLock.java" afterPath="$PROJECT_DIR$/WaitWithoutLock.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="practice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,28 +35,18 @@
       <file leaf-file-name="LevelOrder.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leet/LevelOrder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="209">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InvertBinaryTree.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="InvertBinaryTree.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/leet/InvertBinaryTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sync.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SyncTest1/Sync.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="61" column="3" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
+            <state relative-caret-position="442">
+              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -177,66 +112,7 @@
     <panes>
       <pane id="Scratches" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SyncTest1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ServerName" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="Scope" />
     </panes>
@@ -503,16 +379,16 @@
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14278187" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14278187" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34512326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39846322" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39764202" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -563,8 +439,13 @@
           <line>6</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/leet/InvertBinaryTree.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -912,22 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leet/LevelOrder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leet/InvertBinaryTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ServerName/ServerNameConfigurationManagerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-116">
@@ -940,6 +805,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
           <caret line="61" column="3" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leet/LevelOrder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leet/InvertBinaryTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
           <folding />
         </state>
       </provider>
