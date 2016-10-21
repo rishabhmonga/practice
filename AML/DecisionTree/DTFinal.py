@@ -392,7 +392,7 @@ if __name__ == '__main__':
     data_test3 = read_data("..\monks-3_test.csv")
 
     acc = []
-    for d in range(1, 4):
+    for d in range(1, 6):
         tree = grow_tree(data_train1, d)
         print("\nGenerating Decision Tree for Monks1 Test Dataset for depth : ", d)
         print_tree(tree)
@@ -404,27 +404,27 @@ if __name__ == '__main__':
         confusion_matrix(data_train1, data_test1, d)
     plt.xlabel('Depth')
     plt.ylabel('Accuracy Rate')
-    plt.plot(range(1, 4), acc)
+    plt.plot(range(1, 6), acc)
     # plt.savefig("monks1.png")
     plt.show()
 
     acc = []
-    for d in range(1, 4):
+    for d in range(1, 5):
         tree = grow_tree(data_train2, d)
         print("\nGenerating Decision Tree for Monks2 Test Dataset for depth : ", d)
         print_tree(tree)
-        result = get_accuracy_and_misclassifications(data_train1, data_test1, d)
+        result = get_accuracy_and_misclassifications(data_train2, data_test2, d)
         acc.append(result[0])
         print("Missclassification rate for Monks2 Test Dataset for depth : ", d)
         print(result[1])
         print("Generating Confusion Matrix for Monks2 Test Dataset for depth : ", d)
         confusion_matrix(data_train2, data_test2, d)
-    plt.plot(range(1, 4), acc)
+    plt.plot(range(1, 5), acc)
     # plt.savefig("monks2.png")
     plt.show()
 
     acc = []
-    for d in range(1, 4):
+    for d in range(1, 5):
         tree = grow_tree(data_train3, d)
         print("\nGenerating Decision Tree for Monks3 Test Dataset for depth : ", d)
         print_tree(tree)
@@ -434,7 +434,7 @@ if __name__ == '__main__':
         print(result[1])
         print("Generating Confusion Matrix for Monks3 Test Dataset for depth : ", d)
         confusion_matrix(data_train3, data_test3, d)
-    plt.plot(range(1, 4), acc)
+    plt.plot(range(1, 5), acc)
     # plt.savefig("monks3.png")
     plt.show()
 

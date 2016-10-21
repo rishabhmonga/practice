@@ -10,7 +10,7 @@ class Solution(object):
         prev = None
         curr = head
         nextNode = None
-        while curr is not None :
+        while curr is not None:
             nextNode = curr.next
             curr.next = prev
             prev = curr
