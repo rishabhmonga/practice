@@ -1,0 +1,9 @@
+depth = 5
+samples = 10
+
+=== Confusion Matrix ===
+TN: 29.0 			 FP: 0.0 | Actual negatives :29.0
+FN: 15.0 			 TP: 677.0 | Actual positives :692.0
+Predicted N: 44.0	Predicted P: 677.0
+(0.33254828073480924, 0.6674517192651908)
+-0.41073951954780974
