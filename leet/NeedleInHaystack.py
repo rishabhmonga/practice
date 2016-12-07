@@ -8,24 +8,22 @@ def strStr(haystack, needle):
         return -1
     elif len(needle) == 0:
         return 0
-    i = 0
-    idx = -1
-    for j in range(len(haystack)):
-        if needle[i] == haystack[j]:
-            if i == 0 and idx == -1:
-                idx = j
+    for j in range(0, len(haystack) - len(needle) + 1):
+        i = 0
+        while i < len(needle):
+            if needle[i] != haystack[j + i]:
+                break
             i += 1
-        else:
-            i = 0
-            idx = -1
         if i == len(needle):
-            return idx
+            return j
     return -1
 
 
 if __name__ == '__main__':
-    # print(strStr('a', ''))
-    # print(strStr('', 'a'))
-    # print(strStr('aaa', 'aaaa'))
+    print(strStr('a', 'a'))
+    print(strStr('a', ''))
+    print(strStr('', 'a'))
+    print(strStr('aaa', 'aaaa'))
     print(strStr("mississippi", "issip"))
+    print(strStr("mississippi", "issipi"))
 

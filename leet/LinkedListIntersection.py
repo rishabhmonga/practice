@@ -49,7 +49,7 @@ if __name__ == '__main__':
     head.next.next.next.next.next.next.next.next.next = ListNode(19)
     head.next.next.next.next.next.next.next.next.next.next = ListNode(21)
 
-    head2 = ListNode(2)
+    head2 = head.next.next.next
     result = getIntersectionNode(head, head2)
     print(result.val if result is not None else None)
 

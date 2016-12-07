@@ -1,9 +1,12 @@
 from collections import Counter
 from random import randint
 
-from AML.PA2 import DT_PA2
+from AML.PA2 import Tree
 import pandas as pd
 import numpy as np
+
+LABEL_VAL = Tree.LABEL_VAL
+COLUMN_NAMES = Tree.COLUMN_NAMES
 
 
 def get_samples(df, sample_count):
@@ -13,10 +16,10 @@ def get_samples(df, sample_count):
     return data_sets
 
 
-def bag(samples, depth):
+def bag(samples, attributes, depth):
     forest = []
     for sample in samples:
-        tree = DT_PA2.grow_tree(sample.as_matrix(), depth)
+        tree = Tree.grow_tree(sample, attributes, max_depth=depth)
         forest.append(tree)
     return forest
 
@@ -24,7 +27,7 @@ def bag(samples, depth):
 def prediction(forest, test_row):
     guesses = Counter()
     for tree in forest:
-        p = DT_PA2.predict_class(tree, test_row)
+        p = Tree.predict_class(tree, test_row)
         guesses[p] += 1
     return guesses.most_common(1)[0][0]
 
@@ -41,10 +44,10 @@ def confusion_matrix(forest, test):
     true_negatives = 0.0
     false_positives = 0.0
     false_negatives = 0.0
-    # tree = grow_tree(train, depth)
-    for row in test:
+    for row in test.iterrows():
+        row = row[1]
         pc = prediction(forest, row)
-        rc = row[0]
+        rc = row[LABEL_VAL]
         if pc == rc and pc == 't':
             true_negatives += 1
         if pc == rc and pc == 'f':
@@ -72,9 +75,10 @@ def get_accuracy_and_misclassifications(forest, test):
     :return:
     """
     answers = Counter()
-    for row in test:
+    for row in test.iterrows():
+        row = row[1]
         pc = prediction(forest, row)
-        rc = row[0]
+        rc = row[LABEL_VAL]
         if pc == rc:
             answers["correct"] += 1
         else:
@@ -82,19 +86,25 @@ def get_accuracy_and_misclassifications(forest, test):
     return answers["correct"] / sum(answers.values()), answers["wrong"] / sum(answers.values())
 
 if __name__ == '__main__':
-    data = pd.read_csv("mushroom_train.csv", header=None)
-    data = DT_PA2.read_data(data)
-    samples = get_samples(data, 10)
-    forest = bag(samples, 5)
-    DT_PA2.print_tree(forest[0])
-    exit()
-    test_df = pd.read_csv("mushroom_test.csv")
+    # df = pd.read_csv("mushroom_data.csv", header=None, names=COLUMN_NAMES)
+    # msk = np.random.rand(len(df)) < 0.8
+    #
+    # df_train = df[msk]
+    # df_test = df[~msk]
 
-    test_datas = get_samples(test_df, 1)
-    test_data = DT_PA2.read_data(test_datas[0]).as_matrix()
-    test_row = test_data[1]
-    print(prediction(forest, test_row))
-    confusion_matrix(forest, test_data)
-    result = get_accuracy_and_misclassifications(forest, test_data)
-    print(result)
-    print(result[0] - 0.743287800282619)
+    df_train = pd.read_csv("mushroom_train.csv", header=None, names=COLUMN_NAMES)
+    df_test = pd.read_csv("mushroom_test.csv", header=None, names=COLUMN_NAMES)
+
+    attributes = list(COLUMN_NAMES)
+    attributes.remove(LABEL_VAL)
+
+    samples = get_samples(df_train, 10)
+    forest = bag(samples, attributes, 5)
+    # Tree.print_tree(forest[0])
+    test_datas = get_samples(df_test, 5)
+
+    # print("Generating Confusion Matrix for Monks1 Test Dataset for depth : ", d)
+    confusion_matrix(forest, df_test)
+    # result = get_accuracy_and_misclassifications(forest, df_test)
+    # print(result)
+    # print(result[0] - 0.743287800282619)

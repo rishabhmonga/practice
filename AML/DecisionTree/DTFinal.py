@@ -227,6 +227,7 @@ def information_gain(data, attrib_idx, mask):
         branch_data = filter_data(data, branch_mask)
         branch_ent = entropy(branch_data)
         p_ent_branch += float(sum(counts[branch].values()) / parent_class_label_sum) * branch_ent
+        print(p_ent_branch)
     return parent_ent - p_ent_branch
 
 

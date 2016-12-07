@@ -1,0 +1,78 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+random	/Users/rohan/dev/MAB/mab/__init__.py	/^import random$/;"	namespace	line:7
+ABCMeta	/Users/rohan/dev/MAB/mab/__init__.py	/^from abc import ABCMeta, abstractmethod$/;"	namespace	line:8
+abstractmethod	/Users/rohan/dev/MAB/mab/__init__.py	/^from abc import ABCMeta, abstractmethod$/;"	namespace	line:8
+matplotlib	/Users/rohan/dev/MAB/mab/__init__.py	/^import matplotlib.pyplot as plt$/;"	namespace	line:10
+plt	/Users/rohan/dev/MAB/mab/__init__.py	/^import matplotlib.pyplot as plt$/;"	namespace	line:10
+sns	/Users/rohan/dev/MAB/mab/__init__.py	/^import seaborn as sns$/;"	namespace	line:11
+Bandit	/Users/rohan/dev/MAB/mab/__init__.py	/^class Bandit(object):$/;"	class	line:16
+__metaclass__	/Users/rohan/dev/MAB/mab/__init__.py	/^    __metaclass__ = ABCMeta$/;"	variable	line:17	class:Bandit
+draw	/Users/rohan/dev/MAB/mab/__init__.py	/^    def draw(self):$/;"	member	line:20	class:Bandit
+plot	/Users/rohan/dev/MAB/mab/__init__.py	/^    def plot(self):$/;"	member	line:23	class:Bandit
+BanditNormal	/Users/rohan/dev/MAB/mab/__init__.py	/^class BanditNormal(Bandit):$/;"	class	line:29
+__init__	/Users/rohan/dev/MAB/mab/__init__.py	/^    def __init__(self, mu, sigma):$/;"	member	line:30	class:BanditNormal
+draw	/Users/rohan/dev/MAB/mab/__init__.py	/^    def draw(self):$/;"	member	line:34	class:BanditNormal
+BanditBernoulli	/Users/rohan/dev/MAB/mab/__init__.py	/^class BanditBernoulli(Bandit):$/;"	class	line:38
+__init__	/Users/rohan/dev/MAB/mab/__init__.py	/^    def __init__(self, p):$/;"	member	line:39	class:BanditBernoulli
+draw	/Users/rohan/dev/MAB/mab/__init__.py	/^    def draw(self):$/;"	member	line:42	class:BanditBernoulli
+BanditUniform	/Users/rohan/dev/MAB/mab/__init__.py	/^class BanditUniform(Bandit):$/;"	class	line:49
+__init__	/Users/rohan/dev/MAB/mab/__init__.py	/^    def __init__(self, p):$/;"	member	line:50	class:BanditUniform
+draw	/Users/rohan/dev/MAB/mab/__init__.py	/^    def draw(self):$/;"	member	line:53	class:BanditUniform
+BanditAdversarial	/Users/rohan/dev/MAB/mab/__init__.py	/^class BanditAdversarial(Bandit):$/;"	class	line:57
+__init__	/Users/rohan/dev/MAB/mab/__init__.py	/^    def __init__(self, p, switch):$/;"	member	line:58	class:BanditAdversarial
+draw	/Users/rohan/dev/MAB/mab/__init__.py	/^    def draw(self):$/;"	member	line:63	class:BanditAdversarial
+random	/Users/rohan/dev/MAB/mab/strategies.py	/^import random$/;"	namespace	line:7
+ABCMeta	/Users/rohan/dev/MAB/mab/strategies.py	/^from abc import ABCMeta, abstractmethod$/;"	namespace	line:8
+abstractmethod	/Users/rohan/dev/MAB/mab/strategies.py	/^from abc import ABCMeta, abstractmethod$/;"	namespace	line:8
+np	/Users/rohan/dev/MAB/mab/strategies.py	/^import numpy as np$/;"	namespace	line:10
+math	/Users/rohan/dev/MAB/mab/strategies.py	/^import math$/;"	namespace	line:11
+Strategy	/Users/rohan/dev/MAB/mab/strategies.py	/^class Strategy(object):$/;"	class	line:14
+__metaclass__	/Users/rohan/dev/MAB/mab/strategies.py	/^    __metaclass__ = ABCMeta$/;"	variable	line:15	class:Strategy
+__init__	/Users/rohan/dev/MAB/mab/strategies.py	/^    def __init__(self, n_arms):$/;"	member	line:17	class:Strategy
+regret	/Users/rohan/dev/MAB/mab/strategies.py	/^    def regret(self):$/;"	member	line:23	class:Strategy
+select_arm	/Users/rohan/dev/MAB/mab/strategies.py	/^    def select_arm(self):$/;"	member	line:28	class:Strategy
+update	/Users/rohan/dev/MAB/mab/strategies.py	/^    def update(self, chosen_arm, reward):$/;"	member	line:31	class:Strategy
+__str__	/Users/rohan/dev/MAB/mab/strategies.py	/^    def __str__(self):$/;"	member	line:35	class:Strategy	file:
+name	/Users/rohan/dev/MAB/mab/strategies.py	/^    def name(self):$/;"	member	line:38	class:Strategy
+Deterministic	/Users/rohan/dev/MAB/mab/strategies.py	/^class Deterministic(Strategy):$/;"	class	line:42
+select_arm	/Users/rohan/dev/MAB/mab/strategies.py	/^    def select_arm(self):$/;"	member	line:43	class:Deterministic
+DeterministicAlternating	/Users/rohan/dev/MAB/mab/strategies.py	/^class DeterministicAlternating(Strategy):$/;"	class	line:50
+select_arm	/Users/rohan/dev/MAB/mab/strategies.py	/^    def select_arm(self):$/;"	member	line:51	class:DeterministicAlternating
+EpsilonFirst	/Users/rohan/dev/MAB/mab/strategies.py	/^class EpsilonFirst(Strategy):$/;"	class	line:55
+__init__	/Users/rohan/dev/MAB/mab/strategies.py	/^    def __init__(self, N, n_arms):$/;"	member	line:60	class:EpsilonFirst
+select_arm	/Users/rohan/dev/MAB/mab/strategies.py	/^    def select_arm(self):$/;"	member	line:64	class:EpsilonFirst
+EpsilonGreedy	/Users/rohan/dev/MAB/mab/strategies.py	/^class EpsilonGreedy(Strategy):$/;"	class	line:74
+__init__	/Users/rohan/dev/MAB/mab/strategies.py	/^    def __init__(self, epsilon, n_arms):$/;"	member	line:80	class:EpsilonGreedy
+select_arm	/Users/rohan/dev/MAB/mab/strategies.py	/^    def select_arm(self):$/;"	member	line:84	class:EpsilonGreedy
+update	/Users/rohan/dev/MAB/mab/strategies.py	/^    def update(self, chosen_arm, reward):$/;"	member	line:91	class:EpsilonGreedy
+Exp3	/Users/rohan/dev/MAB/mab/strategies.py	/^class Exp3(Strategy):$/;"	class	line:101
+__init__	/Users/rohan/dev/MAB/mab/strategies.py	/^    def __init__(self, gamma, n_arms):$/;"	member	line:106	class:Exp3
+categorical_draw	/Users/rohan/dev/MAB/mab/strategies.py	/^    def categorical_draw(probs):$/;"	member	line:112	class:Exp3
+select_arm	/Users/rohan/dev/MAB/mab/strategies.py	/^    def select_arm(self):$/;"	member	line:122	class:Exp3
+update	/Users/rohan/dev/MAB/mab/strategies.py	/^    def update(self, chosen_arm, reward):$/;"	member	line:130	class:Exp3
+BanditUniform	/Users/rohan/dev/MAB/scripts/simulation.py	/^from mab import BanditUniform, BanditNormal, BanditAdversarial$/;"	namespace	line:7
+BanditNormal	/Users/rohan/dev/MAB/scripts/simulation.py	/^from mab import BanditUniform, BanditNormal, BanditAdversarial$/;"	namespace	line:7
+BanditAdversarial	/Users/rohan/dev/MAB/scripts/simulation.py	/^from mab import BanditUniform, BanditNormal, BanditAdversarial$/;"	namespace	line:7
+Deterministic	/Users/rohan/dev/MAB/scripts/simulation.py	/^from mab.strategies import Deterministic, EpsilonGreedy, Exp3, EpsilonFirst, DeterministicAlternating$/;"	namespace	line:8
+EpsilonGreedy	/Users/rohan/dev/MAB/scripts/simulation.py	/^from mab.strategies import Deterministic, EpsilonGreedy, Exp3, EpsilonFirst, DeterministicAlternating$/;"	namespace	line:8
+Exp3	/Users/rohan/dev/MAB/scripts/simulation.py	/^from mab.strategies import Deterministic, EpsilonGreedy, Exp3, EpsilonFirst, DeterministicAlternating$/;"	namespace	line:8
+EpsilonFirst	/Users/rohan/dev/MAB/scripts/simulation.py	/^from mab.strategies import Deterministic, EpsilonGreedy, Exp3, EpsilonFirst, DeterministicAlternating$/;"	namespace	line:8
+DeterministicAlternating	/Users/rohan/dev/MAB/scripts/simulation.py	/^from mab.strategies import Deterministic, EpsilonGreedy, Exp3, EpsilonFirst, DeterministicAlternating$/;"	namespace	line:8
+arms	/Users/rohan/dev/MAB/scripts/simulation.py	/^arms = [BanditNormal(0, 1),$/;"	variable	line:10
+arms	/Users/rohan/dev/MAB/scripts/simulation.py	/^arms = [BanditUniform(1),$/;"	variable	line:17
+n_arms	/Users/rohan/dev/MAB/scripts/simulation.py	/^n_arms = len(arms)$/;"	variable	line:20
+deterministic	/Users/rohan/dev/MAB/scripts/simulation.py	/^deterministic = Deterministic(n_arms)$/;"	variable	line:21
+deterministic_alternating	/Users/rohan/dev/MAB/scripts/simulation.py	/^deterministic_alternating = DeterministicAlternating(n_arms)$/;"	variable	line:22
+epsilon_first	/Users/rohan/dev/MAB/scripts/simulation.py	/^epsilon_first = EpsilonFirst(50, n_arms)$/;"	variable	line:23
+epsilon_greedy	/Users/rohan/dev/MAB/scripts/simulation.py	/^epsilon_greedy = EpsilonGreedy(0.9, n_arms)$/;"	variable	line:24
+exp3	/Users/rohan/dev/MAB/scripts/simulation.py	/^exp3 = Exp3(0.02, n_arms)$/;"	variable	line:25
+algos	/Users/rohan/dev/MAB/scripts/simulation.py	/^algos = [$/;"	variable	line:27
+chosen_arm	/Users/rohan/dev/MAB/scripts/simulation.py	/^        chosen_arm = algo.select_arm()$/;"	variable	line:37
+reward	/Users/rohan/dev/MAB/scripts/simulation.py	/^        reward = arms[chosen_arm].draw()$/;"	variable	line:38
+regret	/Users/rohan/dev/MAB/scripts/simulation.py	/^                                        regret=algo.regret())$/;"	variable	line:42
+test_bandit_plot	/Users/rohan/dev/MAB/tests/test_bandit.py	/^def test_bandit_plot():$/;"	function	line:10

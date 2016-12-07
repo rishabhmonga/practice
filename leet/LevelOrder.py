@@ -23,15 +23,16 @@ class TreeNode(object):
             if orderQueue.empty():
                 while not auxQueue.empty():
                     orderQueue.put(auxQueue.get())
-                print("\n")
+                print()
 
 # [3,9,20,null,null,15,7]
-# root = TreeNode(3)
-# root.left = TreeNode(9)
-# root.right = TreeNode(20)
-# root.left.left = None
-# root.left.right = None
-# root.right.left = TreeNode(15)
-# root.right.right = TreeNode(7)
-#
-# TreeNode.levelOrder(root)
+if __name__ == '__main__':
+    root = TreeNode(3)
+    root.left = TreeNode(9)
+    root.right = TreeNode(20)
+    root.left.left = None
+    root.left.right = None
+    root.right.left = TreeNode(15)
+    root.right.right = TreeNode(7)
+
+    TreeNode.levelOrder(root)
