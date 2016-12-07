@@ -13,7 +13,8 @@ For building your bags numpy's random module will be helpful.
 '''
 
 # This is the only non-native library to python you need
-import numpy as np;
+import numpy as np
+import Adaboost.py
 
 import sys, os;
 
@@ -71,18 +72,18 @@ if __name__ == "__main__":
     # Ex. boost 1 10 mushrooms
 
     # Get the ensemble type
-    entype = sys.argv[1];
+    entype = sys.argv[1]
     # Get the depth of the trees
-    tdepth = int(sys.arg[2]);
+    tdepth = int(sys.argv[2])
     # Get the number of bags or trees
-    nummodels = int(sys.argv[3]);
+    nummodels = int(sys.argv[3])
     # Get the location of the data set
-    datapath = sys.argv[4];
+    datapath = sys.argv[4]
 
     # Check which type of ensemble is to be learned
     if entype == "bag":
         # Learned the bagged decision tree ensemble
-        learn_bagged(tdepth, nummodels, datapath);
+        learn_bagged(tdepth, nummodels, datapath)
     else:
         # Learned the boosted decision tree ensemble
-        learn_boosted(tdepth, nummodels, datapath);
+        learn_boosted(tdepth, nummodels, datapath)

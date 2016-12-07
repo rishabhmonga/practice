@@ -69,5 +69,7 @@ if __name__ == '__main__':
         # for node in lvl:
         #     print(node.val, end='')
         # print()
-        print(lvl)
+        for l in lvl:
+            print(l.val, end=' ')
+        print()
 

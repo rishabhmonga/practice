@@ -106,7 +106,7 @@ def infomation_gain(data, idx, skel):
     return current_ent - p_ent_branches
 
 
-df = pd.read_csv("monks_train.csv")
+df = pd.read_csv("monks-1_train.csv")
 df.columns = ["class", "a1", "a2", "a3", "a4", "a5", "a6", "id"]
 df2 = df.drop('id', 1)
 df2.columns = ["class", "a1", "a2", "a3", "a4", "a5", "a6"]

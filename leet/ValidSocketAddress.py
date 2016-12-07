@@ -52,6 +52,6 @@ def is_valid_socket(address):
 if __name__ == '__main__':
     for address in ["127.12.23.43:5000",
                    "127.A:-12"]:
-        print is_valid_socket(address)
+        print(is_valid_socket(address))
 
 
