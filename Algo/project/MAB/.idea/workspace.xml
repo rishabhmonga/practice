@@ -2,42 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e6c9afe-d901-4a3f-b1ad-5da148fcf22e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../AML/HW4/plot.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../AML/PA2/Adaboost.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../AML/PA2/Tree.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../CoinPaths.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Modified_Rod_Cut.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../leet/BinaryTreeSpiralTraversal.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../leet/BinaryTreeVerticalOrderTraversal.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../leet/CompareVersionNumber.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../leet/CountPrimes.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../leet/DepthFirstSearch.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../leet/ExcelSheetColumnTitle.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../leet/FirstBadVersion.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../leet/MinStack.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../leet/RangeSumQuery.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../leet/RotateArray.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../leet/StringToInteger.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../leet/ValidPalindrome.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../leet/ZigZagConversion.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/../../../.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../.idea/misc.xml" afterPath="$PROJECT_DIR$/../../../.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../.idea/practice.iml" afterPath="$PROJECT_DIR$/../../../.idea/practice.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../AML/DecisionTree/DTFinal.py" afterPath="$PROJECT_DIR$/../../../AML/DecisionTree/DTFinal.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../AML/DecisionTree/try.py" afterPath="$PROJECT_DIR$/../../../AML/DecisionTree/try.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../AML/PA2/Bagging.py" afterPath="$PROJECT_DIR$/../../../AML/PA2/Bagging.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../AML/PA2/mushroom_test.csv" afterPath="$PROJECT_DIR$/../../../AML/PA2/mushroom_test.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../AML/PA2/mushroom_train.csv" afterPath="$PROJECT_DIR$/../../../AML/PA2/mushroom_train.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../AML/PA2/pa2_template.py" afterPath="$PROJECT_DIR$/../../../AML/PA2/pa2_template.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../AML/PA2/try.py" afterPath="$PROJECT_DIR$/../../../AML/PA2/try.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../AML/TreeNode2.py" afterPath="$PROJECT_DIR$/../../../AML/TreeNode2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../leet/BinarySearchTry.py" afterPath="$PROJECT_DIR$/../../../leet/BinarySearchTry.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../leet/BinaryTreeLevelOrderTraversal.py" afterPath="$PROJECT_DIR$/../../../leet/BinaryTreeLevelOrderTraversal.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../leet/LevelOrder.py" afterPath="$PROJECT_DIR$/../../../leet/LevelOrder.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../leet/LinkedListIntersection.py" afterPath="$PROJECT_DIR$/../../../leet/LinkedListIntersection.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../leet/NeedleInHaystack.py" afterPath="$PROJECT_DIR$/../../../leet/NeedleInHaystack.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../leet/ValidSocketAddress.py" afterPath="$PROJECT_DIR$/../../../leet/ValidSocketAddress.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../leet/try.py" afterPath="$PROJECT_DIR$/../../../leet/try.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mab/__init__.py" afterPath="$PROJECT_DIR$/mab/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mab/strategies.py" afterPath="$PROJECT_DIR$/mab/strategies.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/simulation.py" afterPath="$PROJECT_DIR$/scripts/simulation.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_bandit.py" afterPath="$PROJECT_DIR$/tests/test_bandit.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,9 +27,11 @@
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mab/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-              <folding />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,30 +39,32 @@
       <file leaf-file-name="strategies.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mab/strategies.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-              <folding />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding>
+                <element signature="e#24#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_bandit.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_bandit.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/test_bandit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="289">
+              <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simulation.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="simulation.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/simulation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding>
-                <element signature="e#83#93#0" expanded="true" />
+                <element signature="e#24#34#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,6 +79,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>rohan</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
@@ -114,18 +92,12 @@
       <list>
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/mab/distributions.py" />
-        <option value="$PROJECT_DIR$/tests/test_bandit.py" />
         <option value="$PROJECT_DIR$/mab/__init__.py" />
-        <option value="$PROJECT_DIR$/mab/strategies.py" />
         <option value="$PROJECT_DIR$/scripts/simulation.py" />
+        <option value="$PROJECT_DIR$/mab/strategies.py" />
+        <option value="$PROJECT_DIR$/tests/test_bandit.py" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -389,6 +361,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5e6c9afe-d901-4a3f-b1ad-5da148fcf22e" name="Default" comment="" />
@@ -403,14 +378,15 @@
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10432034" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10432034" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5021075" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.49789253" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14646997" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -418,13 +394,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -438,7 +410,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
           <caret line="56" column="6" lean-forward="false" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
-          <folding />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -446,7 +420,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -455,7 +431,7 @@
         <state relative-caret-position="493">
           <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
           <folding>
-            <element signature="e#83#93#0" expanded="true" />
+            <element signature="e#24#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -464,7 +440,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="56" column="6" lean-forward="false" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
-          <folding />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -472,7 +450,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -481,7 +461,7 @@
         <state relative-caret-position="493">
           <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
           <folding>
-            <element signature="e#83#93#0" expanded="true" />
+            <element signature="e#24#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -490,7 +470,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1003">
           <caret line="63" column="23" lean-forward="false" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
-          <folding />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -498,7 +480,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -521,7 +505,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#83#93#0" expanded="true" />
+            <element signature="e#24#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -573,37 +557,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_bandit.py">
+    <entry file="file://$PROJECT_DIR$/.tags">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mab/strategies.py">
+    <entry file="file://$PROJECT_DIR$/scripts/result_adversarial_1000.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state relative-caret-position="34">
+          <caret line="2" column="129" lean-forward="true" selection-start-line="2" selection-start-column="129" selection-end-line="2" selection-end-column="129" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mab/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/simulation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <element signature="e#83#93#0" expanded="true" />
+            <element signature="e#24#34#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mab/strategies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_bandit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>

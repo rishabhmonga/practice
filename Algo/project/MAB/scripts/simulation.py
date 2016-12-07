@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-
-.. moduleauthor:: Rohan Monga <rohan@whisper.sh>
-
-"""
 import csv
 
 from mab import BanditUniform, BanditNormal, BanditAdversarial, BanditBernoulli
