@@ -13,14 +13,14 @@ import numpy as np
 #         BanditNormal(5, 1)
 #         ]
 
-# arms = [BanditAdversarial(1, 500),
-#         BanditAdversarial(2, 500)]
+arms = [BanditAdversarial(1, 500),
+        BanditAdversarial(-1, 500)]
 
-arms = [BanditUniform(1),
-        BanditUniform(2)]
-#
+# arms = [BanditUniform(1),
+#         BanditUniform(2)]
+
 # arms = [BanditBernoulli(0.5),
-#         BanditUniform(0.8)]
+#         BanditBernoulli(0.8)]
 
 n_arms = len(arms)
 deterministic = Deterministic(n_arms)
@@ -39,7 +39,7 @@ algos = [
 
 data = []
 trials = 1000
-filename = "result_uniform_{trials}".format(trials=trials)
+filename = "result_adversarial_{trials}".format(trials=trials)
 
 for algo in algos:
     for trial in range(trials):
