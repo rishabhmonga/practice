@@ -2,7 +2,11 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
+<<<<<<< HEAD
     <orderEntry type="jdk" jdkName="Python 3.6.0 (~/anaconda/bin/python)" jdkType="Python SDK" />
+=======
+    <orderEntry type="jdk" jdkName="Python 3.6.0 (C:\Users\risha\Anaconda3\python.exe)" jdkType="Python SDK" />
+>>>>>>> remove nth node from last updates
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">

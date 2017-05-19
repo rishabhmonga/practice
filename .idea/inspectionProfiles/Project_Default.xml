@@ -1,6 +1,7 @@
 <component name="InspectionProjectProfileManager">
   <profile version="1.0">
     <option name="myName" value="Project Default" />
+<<<<<<< HEAD
     <inspection_tool class="PyChainedComparisonsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
       <option name="ignoreConstantInTheMiddle" value="true" />
     </inspection_tool>
@@ -11,6 +12,13 @@
             <item index="0" class="java.lang.String" itemvalue="2.7" />
             <item index="1" class="java.lang.String" itemvalue="3.5" />
             <item index="2" class="java.lang.String" itemvalue="3.6" />
+=======
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="2.7" />
+>>>>>>> remove nth node from last updates
           </list>
         </value>
       </option>
@@ -19,6 +27,10 @@
       <option name="ignoredErrors">
         <list>
           <option value="N802" />
+<<<<<<< HEAD
+=======
+          <option value="N803" />
+>>>>>>> remove nth node from last updates
         </list>
       </option>
     </inspection_tool>
