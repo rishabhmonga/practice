@@ -25,4 +25,4 @@ class Solution(object):
 tree1 = None
 tree2 = TreeNode(0)
 treesSame = Solution()
-print(treesSame.isSameTree(tree1, tree2));
+print(treesSame.isSameTree(tree1, tree2))
