@@ -11,11 +11,12 @@ def subtract(a=5, b=4):
 
 
 if __name__ == '__main__':
-    check = [5,.23,412,34,234]
-    i = 0
-    while i < (len(check)):
-        if check[i] == 5:
-            del check[i]
-            i -= 1
-        i += 1
-    print(check)
+    arr = [1, 1, 2, 3]
+    from collections import Counter
+
+    count = Counter(arr)
+
+    print(count)
+    print(sum(count))
+    print(sum(x[0] * x[1] for x in count.items()))
+
