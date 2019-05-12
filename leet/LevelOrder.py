@@ -25,6 +25,7 @@ class TreeNode(object):
                     orderQueue.put(auxQueue.get())
                 print()
 
+
 # [3,9,20,null,null,15,7]
 if __name__ == '__main__':
     root = TreeNode(3)

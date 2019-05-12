@@ -5,8 +5,8 @@ def findPivot(arr, low, high):
     if high == low:
         return low
 
-    # low + (high - low) / 2
-    mid = (low + high) / 2
+    # low + (high + low) / 2
+    mid = (low + (high - low) // 2)
 
     if mid < high and arr[mid] > arr[mid + 1]:
         return mid
@@ -21,8 +21,8 @@ def binarySearch(arr, low, high, key):
     if high < low:
         return -1
 
-    # low + (high - low) / 2
-    mid = (low + high) / 2
+    # low + (high + low) / 2
+    mid = (low + (high - low) // 2)
     if key == arr[mid]:
         return mid
     if key > arr[mid]:
@@ -50,4 +50,4 @@ if __name__ == '__main__':
     arr = [5, 6, 7, 8, 9, 10, 1, 2, 3]
     key = 3
 
-    print "Index: ", pivotedBinarySearch(arr, len(arr), key)
+    print("Index: ", pivotedBinarySearch(arr, len(arr), key))
