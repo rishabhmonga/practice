@@ -3,20 +3,20 @@ class Graph:
         self.val = x
         self.children = None
 
+
 class TopSort:
-	visited = set()
-	def sort(self, graph):
-		sorted_stack = list()
-		for node in graph:
-			if node not in self.visited:
-				self.visited.add(node)
-				
-				if node.children is not None:
-					for child in node.children:
-						sorted_stack.append(child.val)
-		return sorted_stack
+    visited = set()
 
+    def sort(self, graph):
+        sorted_stack = list()
+        for node in graph:
+            if node not in self.visited:
+                self.visited.add(node)
 
+                if node.children is not None:
+                    for child in node.children:
+                        sorted_stack.append(child.val)
+        return sorted_stack
 
 
 if __name__ == '__main__':
