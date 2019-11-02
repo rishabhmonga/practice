@@ -26,4 +26,4 @@ if __name__ == '__main__':
     s = 'leetcode'
     dictionary = ['leet', 'code']
     print(wordBreak(s, dictionary))
-    print(wordBreak2(s, dictionary))
+    # print(wordBreak2(s, dictionary))

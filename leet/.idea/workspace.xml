@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17b51620-a61b-47d5-a7c4-26e580a23acc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/linkedin/K_Means.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/kmeans.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="17b51620-a61b-47d5-a7c4-26e580a23acc" name="Default" comment="word">
+      <change afterPath="$PROJECT_DIR$/GooglePrac/ReservoirSampling.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LevelOrder.py" beforeDir="false" afterPath="$PROJECT_DIR$/LevelOrder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RotatedArrayBinarySearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/RotatedArrayBinarySearch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP/EditDistance.py" beforeDir="false" afterPath="$PROJECT_DIR$/DP/EditDistance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP/LongestCommonSubsequenceLCS.py" beforeDir="false" afterPath="$PROJECT_DIR$/DP/LongestCommonSubsequenceLCS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP/LongestIncreasingSubsequenceLIS.py" beforeDir="false" afterPath="$PROJECT_DIR$/DP/LongestIncreasingSubsequenceLIS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP/MinCostPath.py" beforeDir="false" afterPath="$PROJECT_DIR$/DP/MinCostPath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/WordBreak.py" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/WordBreak.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,49 +88,6 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
     <fileColor scope="Non-Project Files (Material Oceanic)" color="2E3C43" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TruncatablePrimes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <marker date="1532913097128" expanded="true" signature="187:199" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BinaryTreePath.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BinarySearchTry.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BinaryTreeLevelOrderTraversal.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="56" column="22" lean-forward="true" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -138,107 +95,17 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>if task_count\[\-1\]\[1\] \&gt; 0\:\n            ans \+\= task_count\[\-1\]\[0\]\n            task_count\[\-1\] \= \(task_count\[\-1\]\[0\]\, task_count\[\-1\]\[1\] \- 1\)\n            print\(ans\, task_count\)\n        else\:\n            task_count\.pop\(\-1\)\n            if task_count\:\n                ans \+\= task_count\[\-1\]\[0\]\n                task_count\[\-1\] \= \(task_count\[\-1\]\[0\]\, task_count\[\-1\]\[1\] \- 1\)\n                print\(ans\, task_count\)|if task_count\[\-1\]\[1\] \&gt; 0\:\n            ans \+\= task_count\[\-1\]\[0\]\n            task_count\[\-1\] \= \(task_count\[\-1\]\[0\]\, task_count\[\-1\]\[1\] \- 1\)\n            print\(ans\, task_count\)\n        else\:\n            task_count\.pop\(\-1\)\n            if task_count\:\n                ans \+\= task_count\[\-1\]\[0\]\n                task_count\[\-1\] \= \(task_count\[\-1\]\[0\]\, task_count\[\-1\]\[1\] \- 1\)\n                print\(ans\, task_count\)|if task_count\[\-1\]\[1\] \&gt; 0\:\n            ans \+\= task_count\[\-1\]\[0\]\n            task_count\[\-1\] \= \(task_count\[\-1\]\[0\]\, task_count\[\-1\]\[1\] \- 1\)\n            print\(ans\, task_count\)\n        else\:\n            task_count\.pop\(\-1\)\n            if task_count\:\n                ans \+\= task_count\[\-1\]\[0\]\n                task_count\[\-1\] \= \(task_count\[\-1\]\[0\]\, task_count\[\-1\]\[1\] \- 1\)\n                print\(ans\, task_count\)|if task_count\[\-1\]\[1\] \&gt; 0\:\n            ans \+\= task_count\[\-1\]\[0\]\n            task_count\[\-1\] \= \(task_count\[\-1\]\[0\]\, task_count\[\-1\]\[1\] \- 1\)\n            print\(ans\, task_count\)\n        else\:\n            task_count\.pop\(\-1\)\n            if task_count\:\n                ans \+\= task_count\[\-1\]\[0\]\n                task_count\[\-1\] \= \(task_count\[\-1\]\[0\]\, task_count\[\-1\]\[1\] \- 1\)\n                print\(ans\, task_count\)|if task_count\[\-1\]\[1\] \&gt; 0\:\n            ans \+\= task_count\[\-1\]\[0\]\n            task_count\[\-1\] \= \(task_count\[\-1\]\[0\]\, task_count\[\-1\]\[1\] \- 1\)\n            print\(ans\, task_count\)\n        else\:\n            task_count\.pop\(\-1\)\n            if task_count\:\n                ans \+\= task_count\[\-1\]\[0\]\n                task_count\[\-1\] \= \(task_count\[\-1\]\[0\]\, task_count\[\-1\]\[1\] \- 1\)\n                print\(ans\, task_count\)|if task_count\[\-1\]\[1\] \&gt; 0\:\n            ans \+\= task_count\[\-1\]\[0\]\n            task_count\[\-1\] \= \(task_count\[\-1\]\[0\]\, task_count\[\-1\]\[1\] \- 1\)\n            print\(ans\, task_count\)\n        else\:\n            task_count\.pop\(\-1\)\n            if task_count\:\n                ans \+\= task_count\[\-1\]\[0\]\n                task_count\[\-1\] \= \(task_count\[\-1\]\[0\]\, task_count\[\-1\]\[1\] \- 1\)\n                print\(ans\, task_count\)|if task_count\[\-1\]\[1\] \&gt; 0\:\n            ans \+\= task_count\[\-1\]\[0\]\n            task_count\[\-1\] \= \(task_count\[\-1\]\[0\]\, task_count\[\-1\]\[1\] \- 1\)\n            print\(ans\, task_count\)\n        else\:\n            task_count\.pop\(\-1\)\n            if task_count\:\n                ans \+\= task_count\[\-1\]\[0\]\n                task_count\[\-1\] \= \(task_count\[\-1\]\[0\]\, task_count\[\-1\]\[1\] \- 1\)\n                print\(ans\, task_count\)</find>
-      <find>root.left</find>
-      <find>word</find>
-      <find>matpl</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/MatchingProperties.py" />
-        <option value="$PROJECT_DIR$/OverlappingIntervals.py" />
-        <option value="$PROJECT_DIR$/SimpleAndCompoundWords.py" />
-        <option value="$PROJECT_DIR$/snap/CustomStack.py" />
-        <option value="$PROJECT_DIR$/snap/WordBreak.py" />
-        <option value="$PROJECT_DIR$/IntersectionfTwoArrays2.py" />
-        <option value="$PROJECT_DIR$/RedBlackSubTree.py" />
-        <option value="$PROJECT_DIR$/ValidPalindrome.py" />
-        <option value="$PROJECT_DIR$/uber/ArrayFrequency.py" />
-        <option value="$PROJECT_DIR$/uber/binsearch.py" />
-        <option value="$PROJECT_DIR$/uber/arrayMaxMinDiff.py" />
-        <option value="$PROJECT_DIR$/Facebook/DecodeWays.py" />
-        <option value="$PROJECT_DIR$/Facebook/TopSort.py" />
-        <option value="$PROJECT_DIR$/Facebook/MinimalRuntimeScheduler.py" />
-        <option value="$PROJECT_DIR$/Facebook/ArraySubSequenceSum.py" />
-        <option value="$PROJECT_DIR$/Facebook/ReverseWords.py" />
-        <option value="$PROJECT_DIR$/Facebook/BuySellStockFee.py" />
-        <option value="$PROJECT_DIR$/Facebook/MineSweep.py" />
-        <option value="$PROJECT_DIR$/Microsoft/LongestPalindromeSubString.py" />
-        <option value="$PROJECT_DIR$/Facebook/BSTtoLL.py" />
-        <option value="$PROJECT_DIR$/Facebook/AmazingNumber.py" />
-        <option value="$PROJECT_DIR$/Facebook/SumOfCandidates.py" />
-        <option value="$PROJECT_DIR$/Facebook/ThreeSumZero.py" />
-        <option value="$PROJECT_DIR$/DP/EditDistance.py" />
-        <option value="$PROJECT_DIR$/BalanceBinaryTree.py" />
-        <option value="$PROJECT_DIR$/InorderSuccessor.py" />
-        <option value="$PROJECT_DIR$/snap/cpulogs.log" />
-        <option value="$PROJECT_DIR$/snap/ParseCPULogs.py" />
-        <option value="$PROJECT_DIR$/snap/timeconvert.py" />
-        <option value="$PROJECT_DIR$/snap/GraphClone.py" />
-        <option value="$PROJECT_DIR$/Facebook/WordBreak.py" />
-        <option value="$PROJECT_DIR$/snap/interview.py" />
-        <option value="$PROJECT_DIR$/lyft/StringEncode.py" />
-        <option value="$PROJECT_DIR$/lyft/StringCompress.py" />
-        <option value="$PROJECT_DIR$/lyft/ReverseWordsOfSentence.py" />
-        <option value="$PROJECT_DIR$/lyft/testfile.txt" />
-        <option value="$PROJECT_DIR$/lyft/RetrieveLastLinesOfFIle.py" />
-        <option value="$PROJECT_DIR$/lyft/WordSearch.py" />
-        <option value="$PROJECT_DIR$/lyft/ArrayDuplicates.py" />
-        <option value="$PROJECT_DIR$/lyft/QueueReconstruction.py" />
-        <option value="$PROJECT_DIR$/lyft/BottomLeftLeaf.py" />
-        <option value="$PROJECT_DIR$/lyft/SingleElementInArray.py" />
-        <option value="$PROJECT_DIR$/linkedin/kmeans.py" />
-        <option value="$PROJECT_DIR$/linkedin/K_Means.py" />
-        <option value="$PROJECT_DIR$/RotatedArrayBinarySearch.py" />
-        <option value="$PROJECT_DIR$/LevelOrder.py" />
-        <option value="$PROJECT_DIR$/BinaryTreeLevelOrderTraversal.py" />
-        <option value="$PROJECT_DIR$/TruncatablePrimes.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1057" />
-  </component>
+  <component name="ProjectId" id="1Pvv9bsEx98RUXXbDXqyh5O1h35" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="leet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leet" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedin" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="word&#9;FILE&#9;file://D:/code/personal/Projects/leet/Facebook/WordBreak.py&#10;graph&#9;null&#9;null&#10;height&#9;null&#9;null&#10;treenode&#9;null&#9;null&#10;tree&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -252,8 +119,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TruncatablePrimes">
-    <configuration name="BinaryTreeLevelOrderTraversal" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.palindrome">
+    <configuration name="EditDistance" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leet" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -261,12 +128,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BinaryTreeLevelOrderTraversal.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DP/EditDistance.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -275,7 +142,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="K_Means" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="LongestCommonSubsequenceLCS" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leet" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -283,12 +150,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linkedin" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linkedin/K_Means.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DP/LongestCommonSubsequenceLCS.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -297,7 +164,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RotatedArrayBinarySearch" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ParseCPULogs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leet" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -305,12 +172,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/snap" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RotatedArrayBinarySearch.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/snap/ParseCPULogs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -319,7 +186,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TruncatablePrimes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="WordBreak" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leet" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -327,12 +194,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Facebook" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TruncatablePrimes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Facebook/WordBreak.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -341,7 +208,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="kmeans" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="palindrome" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leet" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -349,12 +216,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linkedin" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/uber" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linkedin/kmeans.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/uber/palindrome.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -364,19 +231,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.BinaryTreeLevelOrderTraversal" />
-      <item itemvalue="Python.K_Means" />
-      <item itemvalue="Python.RotatedArrayBinarySearch" />
-      <item itemvalue="Python.TruncatablePrimes" />
-      <item itemvalue="Python.kmeans" />
+      <item itemvalue="Python.LongestCommonSubsequenceLCS" />
+      <item itemvalue="Python.EditDistance" />
+      <item itemvalue="Python.WordBreak" />
+      <item itemvalue="Python.ParseCPULogs" />
+      <item itemvalue="Python.palindrome" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.TruncatablePrimes" />
-        <item itemvalue="Python.BinaryTreeLevelOrderTraversal" />
-        <item itemvalue="Python.RotatedArrayBinarySearch" />
-        <item itemvalue="Python.K_Means" />
-        <item itemvalue="Python.kmeans" />
+        <item itemvalue="Python.palindrome" />
+        <item itemvalue="Python.ParseCPULogs" />
+        <item itemvalue="Python.WordBreak" />
+        <item itemvalue="Python.EditDistance" />
+        <item itemvalue="Python.LongestCommonSubsequenceLCS" />
       </list>
     </recent_temporary>
   </component>
@@ -396,64 +263,42 @@
       <workItem from="1557694496437" duration="108000" />
       <workItem from="1557694818260" duration="15000" />
       <workItem from="1557694855112" duration="1193000" />
+      <workItem from="1558295044645" duration="200000" />
+      <workItem from="1558665804172" duration="754000" />
+      <workItem from="1558666886616" duration="4292000" />
+      <workItem from="1558996365084" duration="669000" />
+      <workItem from="1559102931698" duration="736000" />
+      <workItem from="1562863651890" duration="21000" />
+      <workItem from="1562863757638" duration="714000" />
+      <workItem from="1566766760887" duration="129000" />
+      <workItem from="1566766989600" duration="62000" />
+      <workItem from="1566767239281" duration="146000" />
+      <workItem from="1566767432841" duration="749000" />
+      <workItem from="1566768230583" duration="72000" />
+      <workItem from="1570929019440" duration="74000" />
+      <workItem from="1570929249429" duration="593000" />
+      <workItem from="1571176606296" duration="5685000" />
+      <workItem from="1571595688992" duration="2577000" />
+      <workItem from="1572451429452" duration="3645000" />
+      <workItem from="1572459313179" duration="2619000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1500000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15405117" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27652735" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3969957" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32896176" />
-      <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3290461" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32853982" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32995737" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
-      <window_info anchor="right" id="Data View" order="5" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12739871" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16344085" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39784947" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32896176" />
-      <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32853982" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="4" />
-      <window_info anchor="right" id="Data View" order="5" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -513,7 +358,17 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leet$BinaryTreeLevelOrderTraversal.coverage" NAME="BinaryTreeLevelOrderTraversal Coverage Results" MODIFIED="1557695143068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leet$BinaryTreePathSum.coverage" NAME="BinaryTreePathSum Coverage Results" MODIFIED="1559103072032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leet$WordBreak.coverage" NAME="WordBreak Coverage Results" MODIFIED="1572454730472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Facebook" />
+    <SUITE FILE_PATH="coverage/leet$LongestCommonSubsequenceLCS.coverage" NAME="LongestCommonSubsequenceLCS Coverage Results" MODIFIED="1572451959878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DP" />
     <SUITE FILE_PATH="coverage/leet$TruncatablePrimes.coverage" NAME="TruncatablePrimes Coverage Results" MODIFIED="1557695150897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leet$EditDistance.coverage" NAME="EditDistance Coverage Results" MODIFIED="1572453844294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DP" />
+    <SUITE FILE_PATH="coverage/leet$ParseCPULogs.coverage" NAME="ParseCPULogs Coverage Results" MODIFIED="1572454785949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/snap" />
+    <SUITE FILE_PATH="coverage/leet$palindrome.coverage" NAME="palindrome Coverage Results" MODIFIED="1572456783736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/uber" />
+    <SUITE FILE_PATH="coverage/leet$TwoSum.coverage" NAME="TwoSum Coverage Results" MODIFIED="1559102977894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leet$boggle.coverage" NAME="boggle Coverage Results" MODIFIED="1571601000409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leet$ReservoirSampling.coverage" NAME="ReservoirSampling Coverage Results" MODIFIED="1558808907036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GooglePrac" />
+    <SUITE FILE_PATH="coverage/leet$boggle_prac.coverage" NAME="boggle_prac Coverage Results" MODIFIED="1571623110106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -523,333 +378,5 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ValidPalindrome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Microsoft/LongestPalindromeSubString.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/BSTtoLL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/AmazingNumber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/SumOfCandidates.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/ArraySubSequenceSum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstBadVersion.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FactorialTrailingZeroes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HappyNumber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InvertedBinaryTreeLevelOrderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InvertedBinaryTreeLevelOrderTraversal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DP/EditDistance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="72" selection-start-line="37" selection-start-column="72" selection-end-line="37" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BalancedBinaryTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InvertBinaryTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BalanceBinaryTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" selection-start-line="29" selection-end-line="35" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InorderSuccessor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IntersectionOfTwoArrays.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IntersectionfTwoArrays2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snap/logs" />
-    <entry file="file://$PROJECT_DIR$/snap/cpulogs.log">
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snap/ParseCPULogs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snap/timeconvert.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TopologicalSort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DepthFirstSearch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="23" selection-start-line="45" selection-end-line="47" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snap/GraphClone.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="7" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/WordBreak.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="110" selection-start-line="18" selection-start-column="110" selection-end-line="18" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snap/interview.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/1858159168/builtins.py" />
-    <entry file="file://$PROJECT_DIR$/lyft/ReverseWordsOfSentence.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lyft/StringEncode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lyft/StringCompress.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lyft/testfile.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
-          <caret line="20099" column="28" selection-start-line="20099" selection-start-column="26" selection-end-line="20099" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/codecs.py" />
-    <entry file="file://$PROJECT_DIR$/lyft/WordSearch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListDuplicate.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lyft/RetrieveLastLinesOfFIle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lyft/ArrayDuplicates.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lyft/QueueReconstruction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/-1948672224/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="3000" column="6" selection-start-line="3000" selection-start-column="6" selection-end-line="3000" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lyft/SingleElementInArray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lyft/BottomLeftLeaf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linkedin/kmeans.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="75" column="32" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linkedin/K_Means.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RotatedArrayBinarySearch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PowerOfThree.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/ThreeSumZero.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LevelOrder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BinaryTreePath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BinarySearchTry.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BinaryTreeLevelOrderTraversal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="56" column="22" lean-forward="true" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TruncatablePrimes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <marker date="1532913097128" expanded="true" signature="187:199" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
