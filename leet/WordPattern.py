@@ -15,8 +15,9 @@ def wordPattern(pattern, str):
             word_idx[pattern[i]] = input_str[i]
         elif pattern[i] not in word_idx or word_idx[pattern[i]] != input_str[i]:
             return False
+    print(word_idx)
     return True
 
 if __name__ == '__main__':
-    # wordPattern("abba", "dog cat cat dog")
+    print(wordPattern("abba", "dog cat cat dog"))
     print(wordPattern("abba", "dog dog dog dog"))
